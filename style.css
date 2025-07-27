@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+.bigContainer {
+  width: fit-content;
+  height: fit-content;
+  margin: 40px auto;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.topText {
+  gap: 4px;
+  margin-bottom: 59px;
+}
+.topText .vector {
+  font-size: 0.6rem;
+  text-align: center;
+  width: 20px;
+  height: 25px;
+  padding: 2px;
+  border-radius: 5px;
+  background-color: #f5f4f5;
+}
+.topText span p {
+  font-size: 1rem;
+  margin-top: 4px;
+}
+.topText span h2 {
+  font-size: 24px;
+  font-weight: 800;
+}
+.calculatorContainer {
+  padding: 30px 20px;
+  background-color: #fafafa;
+  max-width: 537px;
+  height: fit-content;
+  border-radius: 24px;
+}
+.calculatorContainer input {
+  font-family: "DM Mono", monospace;
+  font-weight: 500;
+  width: 477px;
+  height: 59px;
+  padding: 14px 16px;
+  background-color: #ffffff;
+  font-size: 24px;
+  color: #1a1a1a;
+  border: none;
+  outline: none;
+}
+.middleitems {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+  height: 60px;
+}
+.middleitems img {
+  width: 24px;
+  height: 24px;
+}
+.middleitems .signs {
+  width: 105px;
+  height: 60px;
+}
+.middleitems .signs img {
+  width: 44px;
+  height: 24px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+#answer h1 {
+  font-family: "DM Mono", monospace;
+  font-weight: 500;
+  text-align: right;
+  line-height: 111.00000000000001%;
+  font-size: 40px;
+}
+hr {
+  margin: 16px 0px;
+}
+.calculatorContainer button {
+  align-self: right;
+  padding: 13px 20px;
+  font-size: 16px;
+  background-color: #6655ff;
+  color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px 2px #0a0066;
+  margin-left: 22.5rem;
+  cursor: pointer;
+  margin-top: 16px;
+}
